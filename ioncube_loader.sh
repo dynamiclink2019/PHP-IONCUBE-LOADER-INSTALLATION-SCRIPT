@@ -35,84 +35,84 @@ echo "current php version of this system PHP-$CURRENT"
 
 if [  $CURRENT = $a ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.0.so"  >> /etc/php/5.0/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.0.so"  >> /etc/php/5.0/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.0.so" >>  /etc/php/5.0/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_5.0 sucessfully installed"
 
 elif [  $CURRENT = $b  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.1.so"  >> /etc/php/5.1/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.1.so"  >> /etc/php/5.1/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.1.so" >>  /etc/php/5.1/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_5.1 sucessfully installed"
 
 elif [  $CURRENT = $c  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.2.so"  >> /etc/php/5.2/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.2.so"  >> /etc/php/5.2/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.2.so"  >>  /etc/php/5.2/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_5.2 sucessfully installed"
 
 elif [  $CURRENT = $d  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.3.so"  >> /etc/php/5.3/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.3.so"  >> /etc/php/5.3/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.3.so"  >>  /etc/php/5.3/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_5.3 sucessfully installed"
 
 elif [  $CURRENT = $e  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.4.so"  >> /etc/php/5.4/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.4.so"  >> /etc/php/5.4/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.4.so"  >>  /etc/php/5.4/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_5.4 sucessfully installed"
 
 elif [  $CURRENT = $f  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.5.so"  >> /etc/php/5.5/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.5.so"  >> /etc/php/5.5/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.5.so"  >>  /etc/php/5.5/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_5.5 sucessfully installed"
 
 elif [  $CURRENT = $g  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.6.so"  >> /etc/php/5.6/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.6.so"  >> /etc/php/5.6/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.6.so"  >>  /etc/php/5.6/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_5.6 sucessfully installed"
 
 elif [  $CURRENT = $h  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.0.so"  >> /etc/php/7.0/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.0.so"  >> /etc/php/7.0/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.0.so"  >>  /etc/php/7.0/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_7.0 sucessfully installed"
 
 elif [  $CURRENT = $i ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.1.so"  >> /etc/php/7.1/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.1.so"  >> /etc/php/7.1/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.1.so"  >>  /etc/php/7.1/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_7.1 sucessfully installed"
 
 elif [  $CURRENT = $j  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.2.so"  >> /etc/php/7.2/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.2.so"  >> /etc/php/7.2/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.2.so"  >>  /etc/php/7.2/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_7.2 sucessfully installed"
 
 elif [  $CURRENT = $k  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.3.so"  >> /etc/php/7.3/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.3.so"  >> /etc/php/7.3/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.3.so"  >>  /etc/php/7.3/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_7.3 sucessfully installed"
 
 elif [  $CURRENT = $l  ];
 then
-      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.4.so"  >> /etc/php/7.4/apache2/php.ini
+      echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.4.so"  >> /etc/php/7.4/fpm/php.ini
       echo " zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.4.so"  >>  /etc/php/7.4/cli/php.ini
       systemctl restart apache2
       echo "ioncube_loader_7.4 sucessfully installed"
